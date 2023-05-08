@@ -94,18 +94,20 @@ h1 {
 
 .container {
     width: 80%;
-    height: 750px;
+    height: 100vh;
     display: flex;
     justify-content: center;
 }
 
 .painting {
-    height: 480px;
-    width: 400px;
+    height: 27vw;
+    width: 18vw;
     max-width: 30%;
     margin: 0px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .frame {
@@ -130,27 +132,30 @@ h1 {
     font-family: 'La Belle Aurore', cursive;
 }
 
+.note01,
+.note02,
+.note03 {
+    height: 36%;
+    width: 10%;
+}
+
+.note01,
+.note03 {
+    margin-bottom: 2vw;
+}
+
 .note01 {
-    height: 46%;
-    width: 12.5%;
-    margin-top: 50px;
-    margin-left: 73px;
+    height: 37%;
     opacity: 0;
 }
 
 .note02 {
-    height: 44%;
-    width: 12.5%;
-    margin-top: 96px;
-    margin-left: 73px;
+    margin-top: 2.4vw;
+    height: 36%;
     opacity: 0;
 }
 
 .note03 {
-    height: 44%;
-    width: 12.5%;
-    margin-top: 48px;
-    margin-left: 73px;
     opacity: 0;
 }
 
@@ -286,8 +291,8 @@ h1 {
     height: 370px;
     width: 215px;
     position: absolute;
-    top: 65px;
-    left: 465px;
+    top: 3vw;
+    left: 40.5vw;
     z-index: 2;
     cursor: pointer;
     opacity: 0;
@@ -297,8 +302,8 @@ h1 {
     height: 370px;
     width: 215px;
     position: absolute;
-    top: 310px;
-    left: 824px;
+    top: 25.5vw;
+    left: 58.5vw;
     z-index: 2;
     cursor: pointer;
     opacity: 0;
@@ -308,8 +313,8 @@ h1 {
     height: 370px;
     width: 215px;
     position: absolute;
-    top: 168px;
-    right: 130px;
+    top: 13vw;
+    right: 11.5vw;
     z-index: 2;
     cursor: pointer;
     opacity: 0;
