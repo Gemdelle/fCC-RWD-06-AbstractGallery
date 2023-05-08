@@ -142,30 +142,25 @@ h1 {
 
 .note01,
 .note03 {
-    margin-bottom: 2vw;
+    margin-bottom: 2.5vw;
 }
 
 .note01 {
     height: 19vw;
-    width: 11.5vw;
-    margin-top: 2vw;
-    margin-left: 4.2vw;
+    width: 10.1vw;
     opacity: 0;
 }
 
 .note02 {
     height: 18vw;
-    width: 11.5vw;
-    margin-top: 4.5vw;
-    margin-left: 4.2vw;
+    width: 9.9vw;
     opacity: 0;
+    margin-top: 2.3vw;
 }
 
 .note03 {
-    height: 18vw;
-    width: 11.5vw;
-    margin-top: 2vw;
-    margin-left: 4.2vw;
+    height: 18.1vw;
+    width: 10vw;
     opacity: 0;
 }
 
@@ -302,7 +297,7 @@ h1 {
     width: 13vw;
     position: absolute;
     top: 3vw;
-    left: 37vw;
+    left: 39.5vw;
     z-index: 2;
     cursor: pointer;
     opacity: 0;
@@ -312,7 +307,7 @@ h1 {
     height: 20vw;
     width: 13vw;
     position: absolute;
-    top: 16vw;
+    top: 25vw;
     left: 58vw;
     z-index: 2;
     cursor: pointer;
@@ -323,8 +318,8 @@ h1 {
     height: 20vw;
     width: 13vw;
     position: absolute;
-    top: 9vw;
-    right: 8vw;
+    top: 13vw;
+    right: 11vw;
     z-index: 2;
     cursor: pointer;
     opacity: 0;
